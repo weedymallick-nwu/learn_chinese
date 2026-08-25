@@ -1,0 +1,6 @@
+{
+  // Tailwind uses custom at-rules (@tailwind, @apply, @screen) that the
+  // built-in CSS language server doesn't know — stop flagging them.
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore"
+}
