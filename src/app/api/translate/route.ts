@@ -33,7 +33,7 @@ function tokenize(chinese: string): { t: string; w: boolean }[] {
 
 function localPinyin(text: string): string | null {
   try {
-    const out = hanziPinyin(text, { toneMark: "symbols" }).trim();
+    const out = hanziPinyin(text, { toneType: "symbol" }).trim();
     return out.length > 0 ? out : null;
   } catch {
     return null;
