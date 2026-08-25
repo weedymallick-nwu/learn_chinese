@@ -7,8 +7,12 @@ using the dark design system extracted in `DESIGN-rustfinity-com.md`
 ## Run it
 
 ```bash
-npm install
-npm run dev
+1) Before Running this two commands you have to make sure that you have installed all the dependencies by running the npm install command.
+2)And you are in the project folder.
+
+3) npm install
+
+4) npm run dev
 ```
 
 Open http://localhost:3000
